@@ -134,46 +134,6 @@ Users can search for buildings using:
 
 For example, a user may search for a building by typing its abbreviation or part of its full name.
 
-## How to Build
-
-From the project directory, run:
-
-```bash
-make
-```
-
-To build the test executable:
-
-```bash
-make osm_tests
-```
-
-To build the command-line application:
-
-```bash
-make osm_main
-```
-
-To build the local web server:
-
-```bash
-make osm_server
-```
-
-## How to Run
-
-To run the command-line application:
-
-```bash
-make run_main
-```
-
-To run the local web server:
-
-```bash
-make run_server
-```
-
 The command-line version loads the map data, builds the graph, prints graph statistics, and then allows the user to search for paths between buildings.
 
 ## Example Program Flow
