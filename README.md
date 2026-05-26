@@ -190,32 +190,6 @@ Enter destination building:
 
 The program then finds and prints the shortest path between the selected buildings.
 
-## Testing
-
-To run all tests:
-
-```bash
-make test_all
-```
-
-To run graph-specific tests:
-
-```bash
-make test_graph
-```
-
-To run graph-building tests:
-
-```bash
-make test_build_graph
-```
-
-To run Dijkstra tests:
-
-```bash
-make test_dijkstra
-```
-
 ## What I Learned
 
 Through this project, I practiced:
